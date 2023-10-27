@@ -1,4 +1,6 @@
-import DashboardBox from '@/component/DashbordBox'
+import Row1 from '@/component/Row1'
+import Row2 from '@/component/Row2'
+import Row3 from '@/component/Row3'
 import { Box, useMediaQuery, useTheme } from '@mui/material'
 
 const gridTemplateLargeScreens = `
@@ -71,16 +73,9 @@ function Dashboard() {
             }
       }
     >
-      <DashboardBox gridArea="a" bgcolor={palette.grey[400]}></DashboardBox>
-      <DashboardBox gridArea="b" bgcolor={palette.grey[400]}></DashboardBox>
-      <DashboardBox gridArea="c" bgcolor={palette.grey[400]}></DashboardBox>
-      <DashboardBox gridArea="d" bgcolor={palette.grey[400]}></DashboardBox>
-      <DashboardBox gridArea="e" bgcolor={palette.grey[400]}></DashboardBox>
-      <DashboardBox gridArea="f" bgcolor={palette.grey[400]}></DashboardBox>
-      <DashboardBox gridArea="g" bgcolor={palette.grey[400]}></DashboardBox>
-      <DashboardBox gridArea="h" bgcolor={palette.grey[400]}></DashboardBox>
-      <DashboardBox gridArea="i" bgcolor={palette.grey[400]}></DashboardBox>
-      <DashboardBox gridArea="j" bgcolor={palette.grey[400]}></DashboardBox>
+      <Row1 />
+      <Row2 />
+      <Row3 />
     </Box>
   )
 }

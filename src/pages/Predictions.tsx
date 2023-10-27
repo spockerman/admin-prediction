@@ -1,7 +1,7 @@
-import React from 'react'
+import PredictionsBox from '@/component/Predictions'
 
 function Predictions() {
-  return <div>Predictions</div>
+  return <PredictionsBox></PredictionsBox>
 }
 
 export default Predictions
